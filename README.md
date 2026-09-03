@@ -15,6 +15,9 @@ The analysis reports HOMO and LUMO energies, HOMO-LUMO gaps, approximate ionizat
 
 ## Running the workflow
 
+The ORCA input files, XYZ starting geometries, and MATLAB analysis script
+are stored in the repository root.
+
 Set the ORCA executable path in `heterocycle_dft_workflow.m`:
 
 ```matlab
