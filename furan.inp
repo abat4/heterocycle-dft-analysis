@@ -1,0 +1,28 @@
+! B3LYP D3BJ def2-TZVP TightSCF DEFGRID3 Opt TightOpt Freq
+
+%pal
+  nprocs 4
+end
+
+%maxcore 1500
+
+%scf
+  MaxIter 500
+end
+
+%output
+  PrintLevel Normal
+  Print[P_OrbEn] 2
+end
+
+%plots
+  Format Gaussian_Cube
+  Dim1 100
+  Dim2 100
+  Dim3 100
+  ElDens("furan_density.cube");
+  MO("furan_HOMO.cube",17,0);
+  MO("furan_LUMO.cube",18,0);
+end
+
+* xyzfile 0 1 furan.xyz

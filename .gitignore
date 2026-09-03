@@ -1,0 +1,11 @@
+*.gbw
+*.densities
+*.prop
+*.engrad
+*.hess
+*.tmp
+*.trj
+*.opt
+*.property.txt
+.DS_Store
+Thumbs.db
