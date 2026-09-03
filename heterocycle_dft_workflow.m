@@ -3,7 +3,7 @@ clear; clc; close all;
 ORCA_EXE = 'CHANGE_ME_TO_ORCA_EXECUTABLE';
 
 projectDir = fileparts(mfilename('fullpath'));
-inputDir = fullfile(projectDir, 'inputs');
+inputDir = projectDir;
 outputDir = fullfile(projectDir, 'outputs');
 figureDir = fullfile(projectDir, 'figures');
 
